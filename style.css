@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Courgette&family=Dancing+Script:wght@700&family=Great+Vibes&family=Oswald&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #391563;
+    font-family: "Poppins", sans-serif;
+
+}
+h1{
+    color: white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    padding: 10px 40px;
+    background-color: rgb(114, 114, 114);
+    color: white;
+    border:2px solid rgb(255, 255, 255);
+    
+}
+#main{
+    border: 1px solid white;
+    background-color: white;
+    margin: 0 auto;
+    padding: 2%;
+    border-radius: 10px;
+
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(9, 74, 172);
+}
+
+a::before{
+    content: '>';
+}
+
+.main-heading{
+        margin-bottom: 1%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+}
+#repos{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    flex-wrap: wrap;
+}
+
+.crazy-button {
+    background-color: #ff00ff;
+    color: #ffffff;
+    padding: 15px 30px;
+    font-size: 24px;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #ff00ff;
+    transform: rotate(10deg);
+    animation: shake 0.5s infinite alternate;
+    cursor: pointer;
+  }
+
+  @keyframes shake {
+    0% { transform: rotate(10deg) translateX(0); }
+    100% { transform: rotate(10deg) translateX(10px); }
+  }
+
+  .crazy-button:hover {
+    background-color: #00ffff;
+    color: #ff00ff;
+    border-color: #ff00ff;
+    box-shadow: 0px 0px 20px #00ffff;
+    animation: shake 0.2s infinite alternate;
+  } */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2f0650;
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+    color: white;
+}
+
+h1 {
+    margin: 10px 0;
+    color: rgb(121, 224, 255);
+ 
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-box {
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.input-box::placeholder{
+    color: white;
+}
+
+
+#main {
+    margin: 0 auto;
+    padding: 3%;
+    border-radius: 10px;
+}
+
+.card {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+  
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color:  rgb(121, 235, 255);
+}
+
+a:hover {
+    color: rgb(121, 224, 255);
+    text-decoration:underline;
+}
+
+a::before {
+    content: '>';
+}
+
+.main-heading {
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-heading h1 {
+    color: white;
+}
+
+#repos {
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.main-div-parent {
+    display: none;
+    
+}
+
+.show {
+    display: block;
+    
+    background-image: linear-gradient(90deg,#2f0650 0%, #C850C0 60%, #2f0650 100%);
+    /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+    border-radius: 10px;
+  
+}
+
+
+.crazy-button {
+    background-color: #ff00ff;
+    color: #ffffff;
+    padding: 10px 30px;
+    font-size: 20px;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #ff00ff;
+    transform: rotate(10deg);
+    animation: shake 0.5s infinite alternate;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+
+
+.crazy-button:hover {
+    background-color: #391563;
+    color: #ffffff;
+    border-color: #ff00ff;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* Adjust styles for smaller screens */
+    form {
+        flex-direction: column;
+    }
+    html{
+        font-size: 70%;
+    }
+    a{
+        font-size: 16px;
+    }
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
